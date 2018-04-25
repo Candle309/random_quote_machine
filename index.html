@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+            <title>Random Quote Machine</title>
+            <meta name="description" content="Random Quote Machine!">
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='style.css' rel='stylesheet' type='text/css'>
+       
+    </head>
+    <body>
+        <div class="container-fluid text-center">
+            <h1>Random Quote Generator</h1><br/>
+            <div class="quotes text-center">
+                <div class="quote-text">
+                    <i id="quoteL" class="fa fa-quote-left"></i><span class="quote"></span><i id="quoteR" class="fa fa-quote-right"></i><br/>
+                </div>
+                <span class="author"></span><br/>
+                <div class="buttons row">
+                    <a class="button" id="twitterIcon" title="Tweet this quote!" target="_blank"><i class="fa fa-twitter-square"></i>
+                    </a>
+                    <a class="button" id="tumblrIcon" title="Post this quote on tumblr!" target="_blank"><i class="fa fa-tumblr-square"></i>
+                    </a>
+                    <button class="button" id="new-quote">New quote</button>
+                </div>
+            </div>  
+        </div>
+
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="rand.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    </body>
+</html> 

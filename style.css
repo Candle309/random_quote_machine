@@ -1,0 +1,63 @@
+body{
+    background-color: #333;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+  }
+  h1{
+    color:white;
+    font-family:"Lobster", "Times New Roman";
+    font-size:50px;
+  }
+  .quotes{
+    background-color:white;
+    width:33%;
+    margin:20px auto auto auto;
+    border-style:solid;
+    border-radius:5px;
+    padding:20px;
+    height:auto;
+  }
+  #quoteL{
+      font-size:2.0em;
+      margin-right: 0.4em;
+  }
+  #quoteR{
+      font-size:2.0em;
+      margin-right: 0.4em;
+  }
+  .buttons{
+      width:80%;
+      margin: 20px auto auto auto;
+  }
+  .button{
+    border:none;
+    border-radius:3px;
+    cursor:pointer; 
+    outline:none;
+  }
+  #twitterIcon{
+    color:rgb(0, 172, 237);
+    float:left;
+    font-size:40px;
+    margin-right: 10px;
+  }
+  #tumblrIcon{
+    color:rgb(50, 80, 109);
+    float:left;
+    font-size:40px;
+  }
+  #new-quote{
+    float:right;
+    height:38px;
+    margin:15px auto auto auto;
+    color:white;
+    background-color:#333;
+  }
+  .quote{
+    font-size:30px;
+  }
+  .author{
+    font-size:20px;
+    font-style:italic;
+  }
